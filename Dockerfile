@@ -67,3 +67,5 @@ RUN cp ${ALPINE_REPOSITORIES} ${ALPINE_REPOSITORIES}.backup &&\
     rm -fr /var/cache/apk/*
 
 # ==============================================================================
+
+CMD ["sbcl"]
