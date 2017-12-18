@@ -1,0 +1,20 @@
+* SBCL Dockerfile
+This repository contains *Dockerfile* of [[http://www.sbcl.org/][SBCL]] for Docker's automated
+build published to the [[https://hub.docker.com/r/andron94/dockerfile-sbcl/][Docker Hub]].
+** Base Docker Image
++ [[https://hub.docker.com/_/alpine/][alpine:3.7]]
+** Installation
+1. Install [[https://docs.docker.com/engine/installation/][Docker]].
+2. Download automated build from public Docker Hub Registry:
+   #+BEGIN_SRC sh
+   docker pull andron94/dockerfile-sbcl:[TAG]
+   #+END_SRC
+** Usage
+*** Run ~SBCL~ session
+#+BEGIN_SRC sh
+docker run --rm -it andron94/dockerfile-sbcl:[TAG]
+#+END_SRC
+*** Run ~shell~ session
+#+BEGIN_SRC sh
+docker run --rm -it --entrypoint /bin/sh andron94/dockerfile-sbcl:[TAG]
+#+END_SRC
