@@ -25,6 +25,6 @@ docker run --rm -it andron94/dockerfile-sbcl:[TAG]
 
 ### Run `shell` session
 
-```
+```sh
 docker run --rm -it --entrypoint /bin/sh andron94/dockerfile-sbcl:[TAG]
 ```
