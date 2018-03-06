@@ -9,7 +9,7 @@ MAINTAINER Andrii Tymchuk <makedonsky94@gmail.com>
 ENV ALPINE_EDGE_REPOSITORY http://dl-4.alpinelinux.org/alpine/edge/testing
 
 # 2. Convenient definitions.
-ENV SBCL_VERSION 1.4.2
+ENV SBCL_VERSION 1.4.5
 
 ENV SBCL_DIR sbcl
 
