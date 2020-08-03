@@ -1,10 +1,10 @@
-FROM alpine:3.11.3
+FROM alpine:3.12.0
 MAINTAINER Andrii Tymchuk <makedonsky94@gmail.com>
 
 # ================================ Install SBCL ================================
 
 # 1. Testing branch of Alpine edge repository contains latest SBCL version.
-ENV ALPINE_EDGE_REPOSITORY http://dl-4.alpinelinux.org/alpine/edge/testing
+ENV ALPINE_EDGE_REPOSITORY http://dl-4.alpinelinux.org/alpine/edge/community
 
 ENV ALPINE_REPOSITORIES /etc/apk/repositories
 
