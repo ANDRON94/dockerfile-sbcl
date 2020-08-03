@@ -5,7 +5,7 @@ build published to the [Docker Hub](https://hub.docker.com/r/andron94/dockerfile
 
 ## Base Docker Image
 
-+ [alpine:3.11.3](https://hub.docker.com/_/alpine/)
++ [alpine:3.12.0](https://hub.docker.com/_/alpine/)
 
 ## Installation
 
